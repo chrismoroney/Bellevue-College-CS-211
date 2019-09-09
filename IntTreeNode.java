@@ -1,14 +1,15 @@
 /*
 Chris Moroney
-Livingston CS211 Section B
-Due 23 May 2018
-In Class Exercise Number 6
-IntTreeNode class
-*/
-package inclassexercise.pkg6;
-// Class for storing a single node of a binary tree of ints
+CS211 Livingston Section B (1:30)
+Hw07 Exercises <8, 12> Chapter 16, Exercises<1, 5, 8>, Chapter 17
+Due 03 June 2018
+IntTreeNode Class
+ */
 
+// Class for storing a single node of a binary tree of ints
+package moroneychrishw07;
 public class IntTreeNode {
+    
     public int data;
     public IntTreeNode left;
     public IntTreeNode right;

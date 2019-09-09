@@ -1,15 +1,14 @@
 /*
-Chris Moroney
-CS 211 Mr. Livingston Section B (1:30)
-In Class Exercise #4 -- Exercise <2> from page 1013
-Due 18 May 2018
-ListNode class
+Chriw Moroney
+CS211 Livingston Section B (1:30)
+Hw07 Exercises <8, 12> Chapter 16, Exercises<1, 5, 8>, Chapter 17
+Due 03 June 2018
+ListNode Class
  */
-package inclassexericise04;
 
 // ListNode is a class for storing a single node of a linked
 // list.  This node class is for a list of integer values.
-
+package moroneychrishw07;
 public class ListNode {
     public int data;       // data stored in this node
     public ListNode next;  // link to next node in the list

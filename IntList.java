@@ -1,15 +1,15 @@
 /*
 Chris Moroney
-CS 211 Mr. Livingston Section B (1:30)
-In Class Exercise #4 -- Exercise <2> from page 1013
-Due 18 May 2018
-Provided Interface
+CS211 Livingston Section B (1:30)
+Hw07 Exercises <8, 12> Chapter 16, Exercises<1, 5, 8>, Chapter 17
+Due 03 June 2018
+IntList interface
  */
-package inclassexericise04;
+
 /*
  This is the interface definition for the IntList data type
  */
- 
+package moroneychrishw07;
 public interface IntList {
     public int size();
     public int get(int index);
