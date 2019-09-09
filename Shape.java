@@ -1,20 +1,14 @@
-/* Group: Project Team 3 
-   Group members: Christorpher Moroney(Team Leader), Di Zheng, Ema Ikeda, Hanjie Bao, Nicholas Chambers, Preeti Sulgaonkar
-   Course: CS211
-   Date:   04/13/2018
-   The Goal: Page 660/Chapter 9/Programming Project 1
-   Write an inheritance hierarchy of three-dimensional shapes. 
-   Make a top-level shape interface that has methods for getting information such as the volume and surface area of a three-dimensional shape. 
-   Then make classes and subclasses that implement various shapes such as cubes, rectangular prisms, spheres, triangular prisms, cones, and cylinders. 
-   Place common behavior in superclasses whenever possible, and use abstract classes as appropriate. 
-   Add methods to the subclasses to represent the unique behavior of each three-dimensional shape, such as a method to get a sphere's radius.            
+/*
+Chris Moroney
+CS 211 Spring 2018
+HW1 Due 15 April 2018
+Page 660, Exercises 12-16
+Interface Shape for classes Circle, Rectangle, Triangle, Octagon, and Hexagon
 */
+package hw1;
 
-//Shape interface
+// A general interface for shape classes.
 public interface Shape {
-   
-    public double getVolume();
-    public double getSurfaceArea();
-
-    
+    public double getArea();
+    public double getPerimeter();
 }
