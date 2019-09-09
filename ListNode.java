@@ -1,11 +1,11 @@
 /*
 Chris Moroney
 CS 211 Mr. Livingston Section B (1:30)
-In Class Exercise #5
+In Class Exercise #4 -- Exercise <2> from page 1013
 Due 18 May 2018
 ListNode class
  */
-package inclassexercise.pkg05;
+package inclassexericise04;
 
 // ListNode is a class for storing a single node of a linked
 // list.  This node class is for a list of integer values.

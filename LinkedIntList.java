@@ -1,11 +1,11 @@
 /*
 Chris Moroney
 CS 211 Mr. Livingston Section B (1:30)
-In Class Exercise #5
+In Class Exercise #4 -- Exercise <2> from page 1013
 Due 18 May 2018
 LinkedIntList class
  */
-package inclassexercise.pkg05;
+package inclassexericise04;
 
 // need this for the exception in the inclassexercise
 import java.util.*;
@@ -144,19 +144,4 @@ public class LinkedIntList implements IntList {
         return returnVal;
         }
     }
-    
-    // In Class Exercise #5
-    public void moveToBack(){
-        // if the size of the list is less than or equal to one
-        if(size() <= 1){
-            // do nothing
-        } else {
-            // int value is the first term in the list. We add it to the back, and then remove the term
-            // at index 0
-            int value = get(0);
-            add(value);
-            remove(0);
-        }
-    }
-
 }
